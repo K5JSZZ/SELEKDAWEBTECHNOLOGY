@@ -1,0 +1,79 @@
+div .Header-section a:hover{
+    color: violet !important;
+}
+
+div .Wrapper .Wrapper-section a:hover {
+   box-shadow: inset 70vh 0 0 0 var(--yellow);
+ }
+
+ div .Header-group .Input-section #Input-section:focus {
+     width: 38vh;
+}
+
+div .Section-card img:hover{
+    transform: translateX(-20px);
+    transition: all 0.9s ease;
+}
+
+div .Article-logo img:hover{
+    transition: all 0.4s ease-out;
+    scale: 1.15;
+    transform: translateX(20px);
+}
+
+
+div .Logo-esport::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 600px;
+    left: 75px;
+    top:-100px;
+    background: linear-gradient(var(--warning), var(--red));
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+div .Logo-esport::after{
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background: #f8f9fa;
+    border-radius: 18px;
+}
+
+div .Section-Logo h1:hover{
+    transition: all 0.4s ease;
+    transform: translateX(20px);
+    cursor: pointer;
+}
+
+div .Logo-esport:hover{
+    transition: all 0.9s ease;
+    scale: 1.1;
+}
+
+main  .MR05:hover ,.CUPAY:hover ,.MANAY:hover, .SAM13:hover{
+    scale: 0.95;
+    transition: all 0.9s ease;
+    opacity: 0.75;
+}
+
+
+div .Section-Footer-1 a:hover{
+    transition: all 0.5s ease;
+    color: var(--light) !important;
+}
+
+div .Section-end .bx:hover{
+    color: var(--light);
+    transition: all 0.6s ease;
+}
